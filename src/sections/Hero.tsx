@@ -46,25 +46,17 @@ const Hero = () => {
 							Automated bots scan <strong className="text-gray-900 font-semibold bg-primary-50 px-1 rounded">6,537+ websites</strong> and find <strong className="text-gray-900 font-semibold">+24,818 new homes daily</strong>.
 						</p>
 						
-						<div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start items-center relative">
-							{/* Hand-drawn arrow pointing to CTA */}
-							<div className="hidden lg:block absolute -left-28 top-2 opacity-50 rotate-[-15deg]">
-								<span className="font-handwriting text-gray-500 text-sm transform -rotate-12 block mb-1 ml-4">Start for free!</span>
-								<svg width="80" height="40" viewBox="0 0 80 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-									<path d="M5 25C20 25 40 10 70 5M70 5L60 0M70 5L65 15" stroke="#94a3b8" strokeWidth="2" strokeLinecap="round"/>
-								</svg>
-							</div>
-
+						<div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start items-center">
 							<Button size="large" className="w-full sm:w-auto shadow-glow group relative overflow-hidden">
 								<span className="relative z-10 flex items-center">
 									<Zap className="mr-2 w-5 h-5 fill-current" />
-									Sign up and get matches
+									Get Started Free
 								</span>
 								{/* Shine effect */}
 								<div className="absolute inset-0 -translate-x-full group-hover:animate-[shimmer_1.5s_infinite] bg-gradient-to-r from-transparent via-white/20 to-transparent z-0"></div>
 							</Button>
 							<Button variant="outline" size="large" className="w-full sm:w-auto group border-gray-200">
-								See 661,156 properties
+								Browse Properties
 								<ChevronRight className="ml-1 w-4 h-4 transition-transform group-hover:translate-x-1" />
 							</Button>
 						</div>

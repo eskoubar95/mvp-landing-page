@@ -322,7 +322,7 @@ const ListingPreview = () => {
 						</div>
 					</h2>
 					<p className="text-xl text-gray-500 max-w-2xl mx-auto">
-						Here is a small selection of the newest homes in {selectedCity}. Create a search agent to see all properties.
+						Newest homes in {selectedCity}
 					</p>
 				</div>
 				
